@@ -1,0 +1,19 @@
+# Claude — рабочие файлы агента (PRD, SPEC, локальные настройки)
+.claude/
+
+# Кэши и временные файлы HuggingFace / torch / pip
+.cache/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Системное
+.DS_Store
+
+# Веса моделей и checkpoints (не нужны в git, они в Google Drive)
+training_outputs/
+models/
+*.pt
+*.safetensors
